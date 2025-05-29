@@ -1,0 +1,283 @@
+/* IMPOSTAZIONI GENERALI */
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-style: normal;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+li {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  line-height: 1.5;
+  list-style-type: disc;
+  text-align: left;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  margin-top: 20px;
+  font-weight: bold;
+  font-style: oblique;
+}
+/* BODY */
+
+body {
+  background-image: url(../img/sfondo.png);
+  background-size: auto;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Poppins, sans-serif;
+}
+
+.header {
+  width: 400px;
+  height: 300px;
+  padding: 40px 40px;
+  margin: 50px;
+  text-align: center;
+  background: #00b7ff;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 183, 255, 1) 0%,
+    rgba(104, 87, 199, 1) 50%,
+    rgba(186, 83, 237, 1) 100%
+  );
+  margin-left: 0;
+  margin-right: 0;
+  box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.header > img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+div > h3 {
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+  font-size: larger;
+  margin-bottom: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0px;
+}
+
+h3.link {
+  margin: 10px;
+}
+
+/* MAIN */
+main {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  width: 400px;
+  height: auto;
+  padding: 40px 40px;
+  margin: 50px;
+  text-align: center;
+  background-color: white;
+  margin-left: 0;
+  margin-right: 0;
+  box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.main > h1 {
+  text-align: left;
+}
+
+.main > h2 {
+  text-align: left;
+  margin-top: 20px;
+  color: #a7aaa8;
+}
+
+.main > p {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.novità {
+  margin-top: 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: #b9bdba;
+}
+
+/* NOVITÀ */
+.novita-box {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 30px 0;
+  text-align: center;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.novita-box h3 {
+  margin-top: 0;
+  color: #444;
+}
+
+.novita-box p {
+  margin: 10px 0 15px;
+  color: #333;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  background-color: #2c4d99;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.newsletter-form button:hover {
+  background-color: #1e3570;
+}
+
+/* ARTICOLI CORRELATI */
+.articoli-correlati {
+  background-color: #ffffff;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.articoli-correlati h3 {
+  border-bottom: 2px solid #2c4d99;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.articolo {
+  border: 1px solid #ddd;
+  background-color: #f4f7fb;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.articolo a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #2c4d99;
+}
+
+.articolo p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+.tabella-css {
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border-bottom-color: #2c4d99;
+}
+
+.tabella-css h4 {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.tabella-css table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f4f7fb;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 4px solid blue;
+}
+
+.tabella-css th,
+.tabella-css td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.tabella-css thead {
+  background-color: #2c4d99;
+  color: white;
+}
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+
+footer {
+  background: #00b7ff;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 183, 255, 1) 0%,
+    rgba(104, 87, 199, 1) 50%,
+    rgba(186, 83, 237, 1) 100%
+  );
+  padding: 20px;
+  text-align: center;
+  font-size: 1 rem;
+  border-top: 1px solid #2600ff;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 5px 0;
+}
